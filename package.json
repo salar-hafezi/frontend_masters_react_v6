@@ -4,6 +4,7 @@
   "description": "A test project",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,8 @@
   "author": "Salar Hafezi <salar.hfz@gmail.com> (https://salar-hafezi.pro/)",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.4.0",
+    "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.5.1"
   }
 }
