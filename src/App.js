@@ -1,13 +1,14 @@
+import { StrictMode } from "react";
 import { render } from "react-dom";
-import Pet from "./Pet";
+import SeachParams from "./SearchParams";
 
 const App = () => (
-  <div>
-    <h1>Adopt Me</h1>
-    <Pet name="Jason" />
-    <Pet name="John" />
-    <Pet name="Mooly" />
-  </div>
+  <StrictMode>
+    <div>
+      <h1>Adopt Me</h1>
+      <SeachParams />
+    </div>
+  </StrictMode>
 );
 
 render(<App />, document.getElementById("root"));
