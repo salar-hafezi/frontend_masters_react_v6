@@ -1,0 +1,18 @@
+{
+  "name": "frontend_masters_react_v6",
+  "version": "0.1.0",
+  "description": "A test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@salar.github.com:salar-hafezi/frontend_masters_react_v6.git"
+  },
+  "author": "Salar Hafezi <salar.hfz@gmail.com> (https://salar-hafezi.pro/)",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
