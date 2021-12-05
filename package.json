@@ -4,6 +4,7 @@
   "description": "A test project",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +16,21 @@
   "author": "Salar Hafezi <salar.hfz@gmail.com> (https://salar-hafezi.pro/)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
     "eslint": "^8.4.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "parcel": "^2.0.1",
     "prettier": "^2.5.1"
-  }
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
